@@ -25,8 +25,6 @@ Bug.prototype.update = function(dt) {
 		this.speed = 100 + Math.floor(Math.random() * 400);
 		this.x = 0;
 	}
-	console.log(player.x);
-	console.log(this.x);
 	if (player.x < this.x + 60 && player.x + 60 > this.x && player.y < this.y + 80 && player.y + 80 > this.y) {
 		childList.forEach(function(item) {
 			item.style.color = "#c0c0c0";
