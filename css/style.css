@@ -1,0 +1,21 @@
+body {
+	text-align: center;
+}
+img {
+	width: 3%;
+	height: auto;
+}
+/* parent class */
+
+.parent {
+	list-style-type: none;
+}
+.parent li {
+	display: inline-block;
+}
+/*star image */
+
+.fa-star {
+	color: #c0c0c0;
+	text-shadow: 2px 2px 2px #000;
+}
